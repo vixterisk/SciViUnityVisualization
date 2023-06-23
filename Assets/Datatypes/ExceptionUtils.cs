@@ -8,3 +8,11 @@ public class InvalidSettingsFormatException : Exception
     public InvalidSettingsFormatException(string message)
         : base(message) { }
 }
+
+public class NotConfiguredSettingsException : Exception
+{
+    public NotConfiguredSettingsException() { }
+
+    public NotConfiguredSettingsException(string message)
+        : base(message) { }
+}
